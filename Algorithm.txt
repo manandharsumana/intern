@@ -1,0 +1,21 @@
+Algorithm
+
+step1:start
+step2:creat an array1 that include all single digit numbers from 1-9 in words
+step3:creat an array2 that includes numbers from 10-19 in words
+step4:creat an array3 that includes all ten multiple numbers i.e [twenty, thirty, forty, fifty,sixty, seventy, eighty, ninety]
+step5:creat an array4 that include only "hundred"
+step6:creat an array5 that include only "thousand"
+step7:find the length of words of each numbers from  1-9 from step 1 i.e array1
+step8:find the length of words of each numbers from 10-19 from step 2 i.e array2
+step9:concatenate or sum the array of step4 and step2 for numbers from 21-99 without including ten multiple i.e (array3+array1)
+step10:find the length of words of each number from step9 i.e array3
+step11:find the length of words of each number of all ten multiple number from step4
+step12:concatenate array1+array4+and+array1 and find length
+step13:concatenate array1+array4+and+array2 and find length
+step14:concatenate array1+array4+and+array3+array1 and find length
+step15:concatenate array1+array5 and find length
+step16:sum all the length from step7+step8+step10+step11+step12+step13+step14+step15
+step17:display result
+step18:stop
+
